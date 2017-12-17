@@ -1,0 +1,7 @@
+version: '3'
+services:
+  config:
+    image: config:1.0.0
+    build: .
+    ports: 
+    - "8080:8080"
